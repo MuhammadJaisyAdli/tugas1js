@@ -1,0 +1,107 @@
+h1 {
+  font-weight: bold;
+  text-shadow: 2px 2px 5px blue;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #252b48;
+}
+body {
+  background-image: url("../image/Gratis\ Ongkir.jpg");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*margin-left: 2cm;
+    margin-right: 2cm;*/
+  margin: 1cm 2cm 3cm 6cm;
+}
+legend,
+fieldset {
+  border: 5px outset aqua;
+  background-color: burlywood;
+  border-radius: 30px;
+  color: blue;
+  padding: 10px;
+}
+p,
+li,
+h1 {
+  text-align: justify;
+  color: brown;
+  line-height: 25px;
+  font-size: 14pt;
+}
+p.p6 {
+  color: blue;
+  text-align: justify;
+  text-indent: 0;
+}
+ul#pemrograman {
+  list-style: square;
+}
+ul#office {
+  list-style: disc;
+}
+ol.python {
+  list-style-image: url("../image/icon.gif");
+}
+ol.kursus {
+  list-style-type: lower-alpha;
+}
+#menu {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  color: wheat;
+}
+a:link,
+a:visited {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  border: 2px dashed red;
+  background-color: aqua;
+  padding: 5px;
+}
+a:hover {
+  font-weight: bold;
+  text-decoration: none;
+  color: red;
+  border: 2px dashed red;
+  background-color: greenyellow;
+  padding: 7px;
+}
+
+a.gambar:hover {
+  text-decoration: none;
+  color: none;
+  border: 0px;
+  background-color: white;
+}
+
+p.p5::first-letter {
+  font-size: 36pt;
+  color: cadetblue;
+  font-weight: bold;
+  float: left;
+}
+
+a.gambar:link,
+a.gambar:visited {
+  text-decoration: none;
+  color: none;
+  border-width: 0px;
+  background-color: white;
+}
+
+@font-face {
+  font-family: myBackyard;
+  src: url("../backyard_hero/backyard.otf");
+}
+
+* {
+  font-family: myBackyard;
+}
